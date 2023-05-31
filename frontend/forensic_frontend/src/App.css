@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ .container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+
+  height: 100vh;
+ }
+ .search_bar{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-bottom: 10px;
+ }
+ .search_bar1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+ }
+ .search_bar2, .search_bar3, .search_bar4{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height: 40px;
+ }
+ .search_bar2{
+  border: solid;
+  border-right: 0;
+  border-color: rgb(0, 174, 255);
+  width: 40px;
+  border-radius: 20px 0 0 20px;
+  /* height: ; */
+ }
+ .search_bar3{
+  border: solid;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(0, 174, 255);
+  /* height: ; */
+ }
+ .search_bar4{
+  border: solid;
+  border-left: 0;
+  border-color: rgb(0, 174, 255);
+  width: 40px;
+  border-radius: 0 20px 20px 0;
+  /* height: ; */
+ }
+ .buttons{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-top: 10px;
+  
+ }
+
+.buttons1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  
+}
+.button1{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+
+  height: 40px;
+  width: 20vw;
+}
